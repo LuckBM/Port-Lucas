@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,#103b91, #107f9e );
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-image: linear-gradient(to bottom, #1499be, #1146b0 );
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+section h2{
+    color: #ffff;
+    font-size: 2.5rem;
+    margin: 2rem;
+
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+form label{
+    color: #ffff;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #ffff;
+    color: #fff;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #fff;
+    color: #107f9e;
+    border-radius: 16px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #103b91;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #fff;
+    margin-bottom:  30px;
+
+}
+.paragrafo{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #ffff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+a:hover{
+    color:#32f148;
+    background-color: #ffffff;
+    border-radius: 16px;
+   
+}
+
+.butao{
+    padding: 15px 50px;
+    background-color: #32f148;
+    text-decoration: none;
+    color: #103b91;
+    transition: 0.5s;
+}
+
+.butao:hover{
+    background-color: #103b91;
+    color: #32f148;
+    border-radius: 16px;
+
+}
+
+
